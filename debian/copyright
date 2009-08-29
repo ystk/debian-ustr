@@ -1,0 +1,28 @@
+This package was debianized by
+Vaclav Ovsik <vaclav.ovsik@i.cz>  Fri, 12 Oct 2007 14:00:37 +0200
+
+It was downloaded from http://www.and.org/ustr/
+
+    URL: http://www.and.org/ustr/1.0.1/ustr-1.0.1.tar.bz2
+
+Upstream Author: James Antill <james@and.org>
+
+Upstream sources are Copyright (C) 2007 James Antill <james@and.org>
+and have licensing (upstream file LICENSE):
+| 
+|  This code is multi Licensed under all/any one of:
+| 
+| LGPLv2+                  - http://www.and.org/ustr/LICENSE_LGPL
+| New Style BSD (2 clause) - http://www.and.org/ustr/LICENSE_BSD
+| MIT                      - http://www.and.org/ustr/LICENSE_MIT
+| 
+| ...if that isn't enough for you, please send an email to me. The point
+| is for the license to not matter.
+
+LGPL and BSD license can be found on Debian systems in the file
+/usr/share/common-licenses/LGPL
+/usr/share/common-licenses/BSD
+
+The Debian packaging is Copyright (c) 2008 Vaclav Ovsik <vaclav.ovsik@i.cz>
+and is licensed under the GPL. On Debian systems see the file
+/usr/share/common-licenses/GPL

@@ -1,0 +1,2 @@
+version=3
+ftp://ftp.and.org/pub/james/ustr/(\d+(?:\.\d+)*)/ustr-(\d+(?:\.\d+)*)\.tar\.gz
