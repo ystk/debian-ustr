@@ -11,7 +11,7 @@ Signed-off-by: Vaclav Ovsik <vaclav.ovsik@i.cz>
  T/ctst_11_io.c    |    4 ----
  T/ctst_3_medium.c |    2 --
  T/ctst_99_64bit.c |    4 ----
- 3 files changed, 0 insertions(+), 10 deletions(-)
+ 3 files changed, 10 deletions(-)
 
 diff --git a/T/ctst_11_io.c b/T/ctst_11_io.c
 index 5b8e32e..201e2e6 100644

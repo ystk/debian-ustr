@@ -2,14 +2,16 @@ Source: ustr
 Section: libs
 Priority: optional
 Maintainer: Vaclav Ovsik <vaclav.ovsik@i.cz>
-Build-Depends: debhelper (>= 5), cdbs, quilt
-Standards-Version: 3.8.3
+Build-Depends: debhelper (>= 8.1.3), cdbs (>=0.4.93~), quilt
+Standards-Version: 3.9.3
 Homepage: http://www.and.org/ustr/
 Vcs-Git: git://git.debian.org/~zito-guest/pkg-ustr.git
 Vcs-Browser: http://git.debian.org/?p=users/zito-guest/pkg-ustr.git
 
 Package: libustr-1.0-1
 Architecture: any
+Multi-Arch: same
+Pre-Depends: ${misc:Pre-Depends}
 Depends: ${shlibs:Depends}, ${misc:Depends}
 Description: Micro string library: shared library
  ustr (Micro string library) is a string API for C. It has tiny overhead over
@@ -22,6 +24,7 @@ Description: Micro string library: shared library
 
 Package: libustr-1.0-1-dbg
 Architecture: any
+Multi-Arch: same
 Section: debug
 Priority: extra
 Depends: libustr-1.0-1 (= ${binary:Version}), ${misc:Depends}

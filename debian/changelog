@@ -1,3 +1,16 @@
+ustr (1.0.4-3) unstable; urgency=low
+
+  * Changed debian/watch, upstream ftp is no longer available
+  * Changed Standards-Version to 3.9.3
+  * Support Multi-Arch for shared library. Closes: #676155
+  * Changed debian/copyright to machine-readable format
+  * Hardening: append CPPFLAGS to CFLAGS
+  * Added patch fixes/man-spelling, to fix spelling errors in man-pages
+    reported newly by the lintian
+  * Added debian/source/format with 1.0 version number
+
+ -- Vaclav Ovsik <vaclav.ovsik@i.cz>  Wed, 30 May 2012 09:48:12 +0200
+
 ustr (1.0.4-2) unstable; urgency=low
 
   * Extended package descriptions in debian/control

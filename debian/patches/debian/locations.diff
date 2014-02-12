@@ -7,7 +7,7 @@ Signed-off-by: Vaclav Ovsik <vaclav.ovsik@i.cz>
 
 ---
  Makefile |   13 ++++++++-----
- 1 files changed, 8 insertions(+), 5 deletions(-)
+ 1 file changed, 8 insertions(+), 5 deletions(-)
 
 diff --git a/Makefile b/Makefile
 index 7a0f317..9b4a9dc 100644
